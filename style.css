@@ -7,6 +7,10 @@ body {
   font-family: "Montserrat", sans-serif;
   color: aliceblue;
 }
+html{
+  font-size: 62.2%;
+
+}
 .navbar {
   width: 90%;
   margin: 0% auto;
@@ -24,22 +28,23 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  gap: 70px;
+  gap: 7rem;
   list-style: none;
 }
 .navlist > li > a {
   color: aliceblue;
   text-decoration: none;
+  font-size: 1.8rem;
 }
 .navbtn {
   color: #685e2c;
   background-color: transparent;
-  padding: 8px 20px;
+  padding: 0.8rem 2rem;
   border: 2px solid #685e2c;
-  border-radius: 10px;
+  border-radius: 1rem;
   font-family: "Montserrat", sans-serif;
   font-weight: 600;
-  font-size: 2.4vmin;
+  font-size: 1.8rem;
   cursor: pointer;
 }
 .hero-container {
@@ -56,11 +61,11 @@ body {
 }
 .hero-head > h1 {
   width: 50%;
-  font-size: 9vmin;
+  font-size: 6rem;
 }
 .hero-head > p {
   width: 40%;
-  font-size: 2.9vmin;
+  font-size: 2rem;
   letter-spacing: 2px;
   font-weight: 200;
 }
@@ -75,27 +80,26 @@ body {
 .hero-footer {
   display: flex;
   align-self: flex-end;
-  /* margin-bottom: 2%; */
 }
 .left-btn {
-  width: 100px;
-  height: 80px;
+  width: 10rem;
+  height: 9rem;
   background-color: #39372d;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 .right-btn {
-  width: 100px;
-  height: 80px;
+  width: 10rem;
+  height: 9rem;
   background-color: #a08f36;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.hero-footer i{
-    font-size: 4vmin;
-    padding: 10px 15px;
-    border: 1px solid white;
-    border-radius: 50%;
+.hero-footer > div > i {
+  font-size: 2rem;
+  padding: 1rem 1.5rem;
+  border: 1px solid white;
+  border-radius: 50%;
 }
